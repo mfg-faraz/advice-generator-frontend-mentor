@@ -4,7 +4,10 @@ import Main from './containers/Main/Main';
 
 function App() {
   return (
-   <Main><Card/></Main>
+    <Main>
+      <h1 className='hidden'>Advice Generator App Frontend Mentor</h1>
+      <Card />
+    </Main>
   );
 }
 
