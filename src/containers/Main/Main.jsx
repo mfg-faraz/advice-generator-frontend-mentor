@@ -3,7 +3,7 @@ import React from 'react'
 
 const Main = ({children}) => {
   return (
-    <main role='main' className='flex justify-center items-center min-h-screen bg-dark-900 px-3 sm:p-0'>
+    <main  className='flex justify-center items-center min-h-screen bg-dark-900 px-3 sm:p-0'>
         {children}
     </main>
   )
